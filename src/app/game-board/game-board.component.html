@@ -1,0 +1,7 @@
+<div>
+  <h1 class="game-title">Tic Tac Toe</h1>
+  <div *ngIf="winner !== '' " class="winner-message"> {{winner}} won this game! </div>
+  <div class="game-board">
+    <app-nine-square (winnerEmitter)="showWinner($event)"></app-nine-square>
+  </div>
+</div>
