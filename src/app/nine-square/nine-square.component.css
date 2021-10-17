@@ -3,3 +3,9 @@
   height: 100px;
   border: solid tomato 1px;
 }
+
+.square-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0;
+}
