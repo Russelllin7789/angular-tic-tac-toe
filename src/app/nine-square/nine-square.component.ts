@@ -48,6 +48,7 @@ export class NineSquareComponent implements OnInit {
     // return to the round of player 'X'
     this.isXPlaying = true
     this.winnerEmitter.emit('')
+    this.winner = ''
   }
 
   checkWinner(player: string) {

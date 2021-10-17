@@ -1,5 +1,7 @@
-<p>Let's play a good one!</p>
-<button class="restart" (click)="cleanBoard()">Restart Game</button>
+<div class="upper-area">
+  <p class="slogan">Let's play a good one!</p>
+  <button type="button" class="btn btn-info" (click)="cleanBoard()">Restart Game</button>
+</div>
 
 <div class="square-container">
   <div *ngFor="let square of squares; let i = index" class="square square-to-play-{{i}}" (click)="playGame(i)"></div>

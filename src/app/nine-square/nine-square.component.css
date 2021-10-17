@@ -1,10 +1,31 @@
 .square {
   height: 150px;
-  border: solid tomato 1px;
+  border: solid #5bc0de 1px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 9rem;
 }
 
 .square-container {
   display: grid;
   grid-template-columns: 150px 150px 150px;
   grid-gap: 0;
+  width: 450px;
+  border: solid #5bc0de 1px;
+}
+
+.upper-area {
+  line-height: 50px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.slogan {
+  font-size: 1.5rem;
+}
+
+.x-selected {
+ background-color: coral;
 }
